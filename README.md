@@ -1,4 +1,4 @@
-# Hacktober-Fest
+# Hacktober-Fest 2023
 # Contributing Guidelines
 
 Thank you for considering contributing to the Greeting Application! Please follow these guidelines to contribute to the project.
