@@ -14,6 +14,4 @@ Thank you for considering contributing to the Greeting Application! Please follo
 
 Please adhere to the PEP 8 style guide for Python code.
 
-## License
 
-By contributing, you agree that your contributions will be licensed under the MIT License. See [LICENSE.md](LICENSE.md) for details.
