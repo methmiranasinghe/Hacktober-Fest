@@ -1,15 +1,23 @@
 def authenticate_user():
     """Function to authenticate the user."""
-    allowed_username = "user123"
-    allowed_password = "password123"
-    
+    allowed_users = {
+        "user123": "password123",
+        "user5420": "password123"
+    }
+
     username = input("Enter username: ")
     password = input("Enter password: ")
-    
-    if username == allowed_username and password == allowed_password:
+
+    if username in allowed_users and password == allowed_users[username]:
         return True
     else:
         return False
+
+# Example of using the function
+if authenticate_user():
+    print("Authentication successful")
+else:
+    print("Authentication failed")
 
 def greet_user():
     """Function to greet the authenticated user."""
