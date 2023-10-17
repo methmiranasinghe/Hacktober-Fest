@@ -1,16 +1,19 @@
 import random
 
 def get_random_greeting():
-    """Function to get a random greeting message."""
-    greetings = ["Hello", "Hi there", "Hey", "Greetings"]
-    return random.choice(greetings)
+    """Function to get a random greeting message in different languages."""
+    greetings = {
+        "English": ["Hello", "Hi there", "Hey", "Greetings"],
+        "Spanish": ["Hola", "Buenos días", "Saludos"],
+        "French": ["Bonjour", "Salut", "Coucou"],
+        "German": ["Hallo", "Guten Tag", "Grüße"],
+    }
+    
+    language = random.choice(list(greetings.keys()))
+    random_greeting = random.choice(greetings[language])
+    
+    return f"{random_greeting}, {language}!"
 
-def greet_user():
-    """Function to greet the user with a random message."""
-    user_name = input("Enter your name: ")
-    random_greeting = get_random_greeting()
-    return f"{random_greeting}, {user_name}!"
-
-if __name__ == "__main__":
-    greeting_message = greet_user()
+if __name__ == "__main":
+    greeting_message = get_random_greeting()
     print(greeting_message)
