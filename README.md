@@ -3,6 +3,15 @@
 
 Thank you for considering contributing to the Greeting Application! Please follow these guidelines to contribute to the project.
 
+# 📌 Videos 📽️:
+
+- [How to pull request [Overview]](https://youtu.be/DIj2q02gvKs)
+- [Merge Conflict / comment](https://youtu.be/zOx5PJTY8CI)
+
+# How to Run code
+
+1.Install Python Extension For Vscode
+
 ## How to Contribute
 
 1. Fork the repository and create your branch from `main`.
